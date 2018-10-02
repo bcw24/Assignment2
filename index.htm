@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+    <head>
+      <meta charset="utf-8"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+
+      <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+      <title>BCW24</title>
+
+        <style>
+          h1 {text-align: center;}
+          button {
+            font-family: verdana;
+          }
+          footer {
+            font-family: verdana;
+            font-size: 12px;
+          }
+        </style>
+    </head>
+    <body>
+    <div class="container-fluid">
+        <div class row="text-center">
+            <h1>BCW24: A More Elegant Website</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+              <nav class="breadcrumb">
+                <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="aboutpage.html">About</a></li>
+                <li class="breadcrumb-item"><a href="projectspage.html">Projects</a></li>
+                <li class="breadcrumb-item"><a href="resumepage.html">Resume</a></li>
+                <li class="breadcrumb-item"><a href="contactpage.html">Contact</a></li>
+                <li class="breadcrumb-item"><a href="SMARTpage.html">SMART</a></li>
+              </nav>
+            </div>
+        </div>
+
+        <div class="row" style="text-center">
+          <div class="col-md-2"> </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-1"><img src="file_001.jpg" width="120" height="144" alt="Headshot" class="img-fluid"></img> </div>
+          <div class="col-md-6">
+            I am a student in the Master's of Science in Information Science program
+            at the University of Pittsburgh. I am pursuing a career in
+            database and web systems management. Along with my interest in information
+            science I am also heavily involved in multiple artistic endeavors.
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+        <div class="col-md-1">Page Theme</div>
+        <div class="col-md-11"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <button type="button" onclick="myFunction2()">Original</button>
+          </div>
+          <div class="col-md-1">
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="25" stroke="black" stroke-width="2" fill="Silver" />
+            </svg>
+          </div>
+          <div class"col-md-10"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <button type="button" onclick="myFunction1()">Blue</button>
+          </div>
+          <div class="col-md-1">
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="25" stroke="black" stroke-width="2" fill="DeepSkyBlue" />
+            </svg>
+          </div>
+          <div class"col-md-10"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <button type="button" onclick="myFunction3()">Red</button>
+          </div>
+          <div class="col-md-1">
+            <svg height="100" width="100">
+              <circle cx="50" cy="50" r="25" stroke="black" stroke-width="2" fill="Crimson" />
+            </svg>
+          </div>
+          <div class"col-md-10"></div>
+        </div>
+        <script>
+          function myFunction1() {
+          document.body.style.backgroundColor = "DeepSkyBlue";
+          }
+          function myFunction2() {
+          document.body.style.backgroundColor = "Silver";
+          }
+          function myFunction3() {
+          document.body.style.backgroundColor = "Crimson";
+          }
+        </script>
+        <hr></hr>
+        <details>
+          <summary>Brandon Walker</summary>
+            <p>Student, University of Pittsburgh 2018</p>
+            <p>School of Computing and Information Science</p>
+        </details>
+        <footer>
+            <p>Contact information: <a href="mailto:branwalk24@gmail.com">branwalk24@gmail.com</a></p>
+        </footer>
+    </div>
+    </body>
+</html>
